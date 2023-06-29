@@ -22,7 +22,7 @@ class RecipeCard extends StatelessWidget {
         top: top,
         bottom: 0,
         right: 15.0,
-        left: active! ? 32 : 0,
+        left: active! ? 25 : 0,
       ),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
@@ -46,13 +46,13 @@ class RecipeCard extends StatelessWidget {
               borderRadius: BorderRadius.circular(20),
               gradient: LinearGradient(
                 colors: [
-                  recipe!.startColor!,
+                  recipe!.startColor!.withOpacity(0.95),
                   recipe!.endColor!.withOpacity(0.3),
                 ],
                 begin: Alignment.bottomRight,
                 end: Alignment.topLeft,
                 tileMode: TileMode.clamp,
-                stops: const[0.3, 0.6],
+                stops: const[0.2, 0.5],
               ),
             ),
           ),
@@ -115,7 +115,12 @@ class RecipeCard extends StatelessWidget {
                   ),
                   Row(
                     children: [
-                      SvgPicture.asset('svg/ic_share_white.svg'),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(
+                          horizontal: 5,
+                        ),
+                        child: SvgPicture.asset('svg/ic_share_white.svg'),
+                      ),
                       SvgPicture.asset('svg/ic_save_white.svg'),
                     ],
                   )

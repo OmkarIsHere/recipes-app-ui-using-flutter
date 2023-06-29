@@ -14,8 +14,8 @@ class Recipe {
     this.startColor,
     this.endColor
   });
-
-  var recipes =[
+}
+  var recipes = [
     Recipe(
       recipeName: "Chicken Biryani",
       recipeImage: "chicken-biryani.jpeg",
@@ -59,4 +59,3 @@ class Recipe {
         endColor: const Color(0xFFF58B5A)
     ),
   ];
-}

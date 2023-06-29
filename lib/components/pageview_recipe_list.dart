@@ -11,7 +11,6 @@ class PageViewRecipeList extends StatefulWidget {
 class _PageViewRecipeListState extends State<PageViewRecipeList> {
   final PageController pageController = PageController(viewportFraction: 0.75);
   int currentPage = 0;
-
   @override
   Widget build(BuildContext context) {
     return SizedBox(
