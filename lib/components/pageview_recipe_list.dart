@@ -22,10 +22,13 @@ class _PageViewRecipeListState extends State<PageViewRecipeList> {
         physics: const BouncingScrollPhysics(),
         itemBuilder: (BuildContext context, int index) {
           bool active = index == currentPage;
-          return RecipeCard(
-            active: active,
-            index: index,
-            recipe: recipes[index],
+          return Opacity(
+            opacity: currentPage == index? 1.0: 0.5,
+            child: RecipeCard(
+              active: active,
+              index: index,
+              recipe: recipes[index],
+            ),
           );
         },
       ),

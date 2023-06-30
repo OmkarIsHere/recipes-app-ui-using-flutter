@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../components/pageview_recipe_list.dart';
+import '../components/popular_recipe_list.dart';
 
 class HomePage extends StatefulWidget {
+  const HomePage({super.key});
+
   @override
   State<HomePage> createState() => _HomePageState();
 }
@@ -40,6 +43,33 @@ class _HomePageState extends State<HomePage> {
               height: 16,
             ),
             const PageViewRecipeList(),
+            const SizedBox(
+              height: 30,
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(
+                horizontal: 32,
+              ),
+              child: Row(
+                children: [
+                  SvgPicture.asset('svg/ic_popular.svg'),
+                  const SizedBox(
+                    width: 7,
+                  ),
+                  const Text(
+                    'Popular',
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Color(0xFFF9AE89),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(
+              height: 15,
+            ),
+            const PopularRecipeList(),
           ],
         ),
       ),
