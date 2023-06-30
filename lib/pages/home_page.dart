@@ -6,7 +6,7 @@ import '../components/pageview_recipe_list.dart';
 import '../components/popular_recipe_list.dart';
 
 class HomePage extends StatefulWidget {
-  // const HomePage({super.key});
+  const HomePage({super.key});
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-      bottomNavigationBar: BottomNavigation(),
+      bottomNavigationBar: const BottomNavigation(),
     );
   }
 }
