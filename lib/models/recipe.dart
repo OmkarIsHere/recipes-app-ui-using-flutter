@@ -19,28 +19,28 @@ class Recipe {
     Recipe(
       recipeName: "Chicken Biryani",
       recipeImage: "chicken-biryani.jpeg",
-      recipeMaker: "Omkar Pendkalkar",
+      recipeMaker: "Ram",
         startColor: const Color(0xFF621e14),
       endColor: const Color(0xFFF58B5A)
     ),
     Recipe(
         recipeName: "Pav Bhaji",
         recipeImage: "pav-bhaji.jpg",
-        recipeMaker: "Omkar Pendkalkar",
+        recipeMaker: "Shyam",
         startColor: const Color(0xFF621e14),
         endColor: const Color(0xFFd13b10)
     ),
     Recipe(
         recipeName: "Onion Chizz Pizza",
         recipeImage: "pizza.jpg",
-        recipeMaker: "Omkar Pendkalkar",
+        recipeMaker: "Raju",
         startColor: const Color(0xFF621e14),
         endColor: const Color(0xFFd13b10)
     ),
     Recipe(
         recipeName: "Corn Sabji",
         recipeImage: "corn-sabji.jpeg",
-        recipeMaker: "Omkar Pendkalkar",
+        recipeMaker: "Omkar",
         startColor: const Color(0xFF621e14),
         endColor: const Color(0xFFd13b10)
 
@@ -48,7 +48,7 @@ class Recipe {
     Recipe(
         recipeName: "Full Meal Thali",
         recipeImage: "full-thali.jpg",
-        recipeMaker: "Omkar Pendkalkar",
+        recipeMaker: "Pappu",
         startColor: const Color(0xFF621e14),
         endColor: const Color(0xff724a0d)
     ),

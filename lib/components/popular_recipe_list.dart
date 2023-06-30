@@ -13,7 +13,7 @@ class _PopularRecipeListState extends State<PopularRecipeList> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 30),
+      padding: const EdgeInsets.symmetric(horizontal: 20),
       child: ListView.builder(
         physics: const NeverScrollableScrollPhysics(),
         itemCount: recipes.length,
@@ -21,8 +21,8 @@ class _PopularRecipeListState extends State<PopularRecipeList> {
         itemBuilder: (context, index) {
           return Container(
             height: 100,
-            margin: const EdgeInsets.only(bottom: 16),
-            padding: const EdgeInsets.all(16),
+            margin: const EdgeInsets.only(bottom: 5),
+            padding: const EdgeInsets.all(5),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(15),
               color: Colors.transparent,
@@ -72,7 +72,8 @@ class _PopularRecipeListState extends State<PopularRecipeList> {
                   ),
                 ),
                 Column(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     CircleAvatar(
                       radius: 15,

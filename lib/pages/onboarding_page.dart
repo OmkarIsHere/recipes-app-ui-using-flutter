@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:recipes/pages/home_page.dart';
 
 class OnBoardingPage extends StatelessWidget {
   const OnBoardingPage({Key? key}) : super(key: key);
@@ -12,13 +12,39 @@ class OnBoardingPage extends StatelessWidget {
         child: ListView(
           children: [
             SizedBox(
-              height: MediaQuery.of(context).size.height * 0.1,
+              height: MediaQuery.of(context).size.height * 0.01,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                const SizedBox(),
+                InkWell(
+                  onTap:(){
+                    Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) =>
+                                HomePage()));
+                  },
+                  child: const Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Text(
+                        'Skip',
+                        style: TextStyle(fontSize: 14),
+                      ),
+                      Icon(Icons.chevron_right),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+            SizedBox(
+              height: MediaQuery.of(context).size.height * 0.08,
             ),
             Container(
               height: 213,
-              child:Image.asset(
-                  'images/ic-onboarding.png'
-              ),
+              child: Image.asset('images/ic-onboarding.png'),
             ),
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.05,
