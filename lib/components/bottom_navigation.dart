@@ -21,26 +21,26 @@ class _BottomNavigationState extends State<BottomNavigation>{
       items: <BottomNavigationBarItem>[
         BottomNavigationBarItem(
             icon: _selectedIndex == 0
-                ? SvgPicture.asset('svg/ic_home_selected.svg')
-                : SvgPicture.asset('svg/ic_home.svg'),
+                ? SvgPicture.asset('assets/svg/ic_home_selected.svg')
+                : SvgPicture.asset('assets/svg/ic_home.svg'),
           label: 'Home',
         ),
         BottomNavigationBarItem(
             icon: _selectedIndex == 1
-                ? SvgPicture.asset('svg/ic_search_selected.svg')
-                : SvgPicture.asset('svg/ic_search.svg'),
+                ? SvgPicture.asset('assets/svg/ic_search_selected.svg')
+                : SvgPicture.asset('assets/svg/ic_search.svg'),
           label: 'Search',
         ),
         BottomNavigationBarItem(
             icon: _selectedIndex == 2
-                ? SvgPicture.asset('svg/ic_notification_selected.svg')
-                : SvgPicture.asset('svg/ic_notification.svg'),
+                ? SvgPicture.asset('assets/svg/ic_notification_selected.svg')
+                : SvgPicture.asset('assets/svg/ic_notification.svg'),
           label: 'Notification',
         ),
         BottomNavigationBarItem(
             icon: _selectedIndex == 3
-                ? SvgPicture.asset('svg/ic_setting_selected.svg')
-                : SvgPicture.asset('svg/ic_setting.svg'),
+                ? SvgPicture.asset('assets/svg/ic_setting_selected.svg')
+                : SvgPicture.asset('assets/svg/ic_setting.svg'),
           label: 'Settings',
         ),
       ],

@@ -11,9 +11,9 @@ class OnBoardingPage extends StatelessWidget {
         padding: const EdgeInsets.all(32),
         child: ListView(
           children: [
-            SizedBox(
-              height: MediaQuery.of(context).size.height * 0.01,
-            ),
+            // SizedBox(
+            //   height: MediaQuery.of(context).size.height * 0.01,
+            // ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -31,7 +31,7 @@ class OnBoardingPage extends StatelessWidget {
                     children: [
                       Text(
                         'Skip',
-                        style: TextStyle(fontSize: 14),
+                        style: TextStyle(fontSize: 16),
                       ),
                       Icon(Icons.chevron_right),
                     ],
@@ -44,7 +44,7 @@ class OnBoardingPage extends StatelessWidget {
             ),
             Container(
               height: 213,
-              child: Image.asset('images/ic-onboarding.png'),
+              child: Image.asset('assets/images/ic-onboarding.png'),
             ),
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.05,

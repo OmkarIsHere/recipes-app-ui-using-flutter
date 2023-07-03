@@ -39,7 +39,7 @@ class _PopularRecipeListState extends State<PopularRecipeList> {
                       image: DecorationImage(
                         fit: BoxFit.cover,
                         image:
-                            AssetImage('images/${recipes[index].recipeImage}'),
+                            AssetImage('assets/images/${recipes[index].recipeImage}'),
                       ),
                     ),
                   ),
@@ -88,9 +88,9 @@ class _PopularRecipeListState extends State<PopularRecipeList> {
                     // const Spacer(),
                     Row(
                       children: [
-                        SvgPicture.asset('svg/ic_share.svg'),
+                        SvgPicture.asset('assets/svg/ic_share.svg'),
                         const SizedBox(width: 5,),
-                        SvgPicture.asset('svg/ic_save.svg'),
+                        SvgPicture.asset('assets/svg/ic_save.svg'),
                       ],
                     )
                   ],

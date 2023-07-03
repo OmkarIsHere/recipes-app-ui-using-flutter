@@ -36,7 +36,7 @@ class RecipeCard extends StatelessWidget {
         ],
         image: DecorationImage(
           fit: BoxFit.cover,
-          image: AssetImage('images/${recipe!.recipeImage}'),
+          image: AssetImage('assets/images/${recipe!.recipeImage}'),
         ),
       ),
       child: Stack(
@@ -98,30 +98,29 @@ class RecipeCard extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 8,
-                      vertical: 5,
-                    ),
                     height: 24,
+                    width: 64,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(12),
                       color: Colors.white,
                     ),
-                    child: Text(
-                      'Recipe',
-                      style: TextStyle(
-                        fontSize: 12,
-                        color: recipe!.startColor,
+                    child: Center(
+                      child: Text(
+                        'Recipe',
+                        style: TextStyle(
+                          fontSize: 12,
+                          color: recipe!.startColor,
+                        ),
                       ),
                     ),
                   ),
                   Row(
                     children: [
-                       SvgPicture.asset('svg/ic_share_white.svg'),
+                       SvgPicture.asset('assets/svg/ic_share_white.svg'),
                       const SizedBox(
-                        width: 5,
+                        width: 8,
                       ),
-                      SvgPicture.asset('svg/ic_save_white.svg'),
+                      SvgPicture.asset('assets/svg/ic_save_white.svg'),
                     ],
                   )
                 ],

@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   SizedBox(
                     height: 36,
-                    child: SvgPicture.asset('svg/ic_menu.svg'),
+                    child: SvgPicture.asset('assets/svg/ic_menu.svg'),
                   ),
                 ],
               ),
@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> {
               padding: const EdgeInsets.symmetric(horizontal: 32,),
               child: Row(
                 children: [
-                  SvgPicture.asset('svg/ic_popular.svg'),
+                  SvgPicture.asset('assets/svg/ic_popular.svg'),
                   const SizedBox(width: 7,),
                   const Text(
                     'Popular',

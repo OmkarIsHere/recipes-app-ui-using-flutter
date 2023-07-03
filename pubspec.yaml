@@ -59,9 +59,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-assets:
-  - images/
-  - svg/
+  assets:
+    - assets/images/
+    - assets/svg/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -75,9 +75,9 @@ assets:
   # list giving the asset and other descriptors for the font. For
   # example:
 fonts:
-  - family: SFProText
-    fonts:
-      - assets/fonts/SFProText-Regular.ttf
+    - family: SFProText
+      fonts:
+        - asset: assets/fonts/SFProText-Regular.ttf
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
