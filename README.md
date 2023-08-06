@@ -4,15 +4,17 @@ Welcome to the Recipes App UI project! This is my first Flutter project, built t
 
 ## Demo
 
-Will be added shortly...
+https://github.com/OmkarIsHere/recipes-app-ui-using-flutter/assets/101088359/3cbf9bf8-e9c3-48ac-ba33-bc4e46c4496c
+
+
 
 ## Features
 
-> - **Recipe Categories:** Explore a variety of recipe categories to find your favorite dishes easily.
->
-> - **Recipe Details:** View detailed information about each recipe, including ingredients, instructions, and images.
->
-> - **User-Friendly Interface:** The app's intuitive UI makes it easy to navigate and find recipes.
+ - **Recipe Categories:** Explore a variety of recipe categories to find your favorite dishes easily.
+
+ - **Recipe Details:** View detailed information about each recipe, including ingredients, instructions, and images.
+
+ - **User-Friendly Interface:** The app's intuitive UI makes it easy to navigate and find recipes.
 
 ## Getting Started
 
