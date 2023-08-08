@@ -2,7 +2,9 @@
 
 Welcome to the Recipes App UI project! This is my first Flutter project, built to learn UI design by cloning an online free Figma file (.sketch file). The project aims to learn and showcase my skills in creating a beautiful and functional UI for a recipes app.
 
-## Demo
+**Download Apk -** https://drive.google.com/file/d/1sGBChcjg9vqCtzpQkU411vg87NuOZv0Z/view?usp=sharing
+
+## Preview
 
 https://github.com/OmkarIsHere/recipes-app-ui-using-flutter/assets/101088359/3cbf9bf8-e9c3-48ac-ba33-bc4e46c4496c
 
